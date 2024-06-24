@@ -7,9 +7,7 @@ body {
     /* border: 6px solid black; */
     display: inline-flex;
     margin-left: 95px;
-    /* width: 600px;
-    height: 200px; */
-    /* flex-wrap: wrap; */
+    
 }
 
 .flex-item {
