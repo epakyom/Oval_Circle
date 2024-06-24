@@ -1,0 +1,98 @@
+body {
+    margin: 300px;
+    background-color: rgb(241, 235, 239);
+}
+
+.container {
+    /* border: 6px solid black; */
+    display: inline-flex;
+    margin-left: 95px;
+    /* width: 600px;
+    height: 200px; */
+    /* flex-wrap: wrap; */
+}
+
+.flex-item {
+    color: white;
+    padding: 1rem;
+}
+
+.circle {
+    
+    box-shadow: 0 5px 15px rgba(255, 43, 5, 0.603);    
+    background-image: linear-gradient(rgba(255, 0, 0, 0), red, rgba(255, 255, 0, 0.384));
+    background-color:rgba(255,107,37,255);
+    /* background-color: orange; */
+    /* background-color: #ff5f17; */
+         /* background-image: linear-gradient(180deg, red 0%, red,rgba(255, 166, 0, 0.521) 100%); */
+    /* background-image: linear-gradient(180deg, #FFB84D 0%, #FF7700 100%); */
+    /* background-color: transcient color(srgb red green blue) */
+    width: 167px;
+    height: 167px;
+    /* background-color: orange; */
+    border-radius: 50%; /* Makes the div circular */
+    /* display: inline-flex; */
+    margin-right: 40px; */
+    margin-left: 400px;
+    /* margin-top: 250px; */ */
+    /* border-color: red;
+    border-style: solid; */
+    border: 3px solid #000; /*Added border */
+    border-color: #b13a03;
+    border-style: solid;
+    /* box-shadow: #b13a03; */
+}
+
+.circle-small{
+    
+    background-color: rgba(254,129,49,255);
+    /* background-image: linear-gradient(rgba(255, 0, 0, 0), rgb(255, 0, 0)); */
+    width: 120px; 
+    height: 120px; 
+    /* background-color: #fe8131; Lighter orange for background */
+    /* background-image: linear-gradient(#fe8131,rgba(254,129,49,255)); */
+    background: linear-gradient(180deg, #ffcc98 0%, #ffb84d00 100%);
+    border-radius: 50%;
+    position: absolute;
+    top: 110px;
+    left: 60px;
+    margin-right: 40px;
+    margin-left: 377px;
+    margin-top: 205px;
+    /* border: 0.2px solid;
+    border-bottom: none;
+    border-color: #FFD1A4; */
+}
+
+.oval {
+    background-color: rgba(221,224,233,255);
+    box-shadow: 0 5px 15px rgba(221,224,233,255);
+    width: 365px;
+    height: 170px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.719),rgba(128, 128, 128, 0), rgb(255, 255, 255));;
+    /* background-color: rgb(255, 255, 255); */
+    border: 3px solid;
+    border-color: rgba(221,224,233,255);;
+    border-radius: 250px; /*Horizontal radius / Vertical radius*/
+    /* border-color:whitesmoke;
+    border-style: solid; */
+}
+
+.oval-small {
+
+    width: 313px;
+    height: 116px;
+    background-color:rgba(244,245,250,255);
+    border: 0.2px solid;
+    border-color:rgba(244,245,250,255) ;
+    border-bottom:none;
+    /* color: rgba(235,235,243,255); */
+    border-radius: 250px;
+    position:relative;
+    top: -9px;
+    left: 28px;
+    /* margin-right: 40px;
+    margin-left: 377px;
+    margin-top: 205px; */
+    background-image: linear-gradient(rgb(255, 255, 255),rgba(100, 96, 96, 0.075)); 
+}
